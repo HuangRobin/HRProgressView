@@ -18,6 +18,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self setBackgroundColor:[UIColor clearColor]];
         
     }
     return self;
@@ -47,15 +48,16 @@
     CGPoint center = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2);
     CGContextAddArc(context, center.x, center.y, min, - M_PI_2, - M_PI_2 + radian, 0);
     
-    [[UIColor clearColor] setFill];
-    
     if (!progressTintColor) {
         progressTintColor = [UIColor blueColor];
     }
     [progressTintColor setStroke];
+    [[UIColor clearColor] setFill];
     CGContextSetLineWidth(context, 3);
     CGContextSetLineCap(context,kCGLineCapRound);
     CGContextDrawPath(context, kCGPathFillStroke);
+    
+
     
 }
 

@@ -21,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    HRProgressView *progressView = [[HRProgressView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+//    progressView.backgroundColor = [UIColor whiteColor];
+    progressView.progress = 0.8;
+    [self.view addSubview:progressView];
 
     
 }
