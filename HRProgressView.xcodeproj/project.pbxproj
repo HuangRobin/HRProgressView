@@ -21,6 +21,7 @@
 		85D3BDD818D17C9E00C9706A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D3BDBA18D17C9D00C9706A /* UIKit.framework */; };
 		85D3BDE018D17C9E00C9706A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85D3BDDE18D17C9E00C9706A /* InfoPlist.strings */; };
 		85D3BDE218D17C9E00C9706A /* HRProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D3BDE118D17C9E00C9706A /* HRProgressViewTests.m */; };
+		85D3BDED18D17D5900C9706A /* HRProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D3BDEC18D17D5900C9706A /* HRProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		85D3BDDD18D17C9E00C9706A /* HRProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRProgressViewTests-Info.plist"; sourceTree = "<group>"; };
 		85D3BDDF18D17C9E00C9706A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85D3BDE118D17C9E00C9706A /* HRProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRProgressViewTests.m; sourceTree = "<group>"; };
+		85D3BDEB18D17D5900C9706A /* HRProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRProgressView.h; sourceTree = "<group>"; };
+		85D3BDEC18D17D5900C9706A /* HRProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				85D3BDC818D17C9D00C9706A /* Main.storyboard */,
 				85D3BDCB18D17C9D00C9706A /* ViewController.h */,
 				85D3BDCC18D17C9D00C9706A /* ViewController.m */,
+				85D3BDEB18D17D5900C9706A /* HRProgressView.h */,
+				85D3BDEC18D17D5900C9706A /* HRProgressView.m */,
 				85D3BDCE18D17C9D00C9706A /* Images.xcassets */,
 				85D3BDBD18D17C9D00C9706A /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D3BDCD18D17C9D00C9706A /* ViewController.m in Sources */,
+				85D3BDED18D17D5900C9706A /* HRProgressView.m in Sources */,
 				85D3BDC718D17C9D00C9706A /* AppDelegate.m in Sources */,
 				85D3BDC318D17C9D00C9706A /* main.m in Sources */,
 			);
